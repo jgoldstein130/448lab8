@@ -1,0 +1,41 @@
+body{
+  background-color: #6495ED;
+}
+
+#container{
+  width: 50%;
+  height: 700px;
+  background-color: white;
+  padding-left: 25px;
+
+}
+
+#profpic{
+  background-image: url("https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5f4ebe0c87612dab4f12a597%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D292%26cropX2%3D3684%26cropY1%3D592%26cropY2%3D3987");
+  height: 150px;
+  width: 150px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 1px solid black;
+  display: inline-block
+}
+
+#name{
+  font-size: 24px;
+  font-family: cursive;
+}
+
+a{
+  text-decoration: none;
+  color: #00008B;
+  border: 1px solid gray;
+  padding: 5px;
+}
+
+a:hover{
+  color: #00FFFF;
+}
+
+.bio{
+  display: inline-block;
+}
